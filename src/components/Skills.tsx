@@ -34,43 +34,36 @@ const skills = {
   {
     name: 'Web & App Development',
     description: 'HTML, CSS, JavaScript, MySQL',
-    level: 75,
     icon: Code2
   },
   {
     name: 'Software QA & Testing',
     description: 'Quality Assurance & Testing',
-    level: 80,
     icon: TestTube
   },
   {
     name: 'Database Management',
     description: 'SQL Basics & Data Management',
-    level: 75,
     icon: Database
   },
   {
     name: 'UI/UX Design',
     description: 'Design Fundamentals',
-    level: 85,
     icon: Palette
   },
   {
     name: 'Data Entry & QA',
     description: 'Data Quality Assurance',
-    level: 90,
     icon: FileCheck
   },
   {
     name: 'Information Security',
     description: 'Security Fundamentals',
-    level: 75,
     icon: Lock
   },
   {
     name: 'Systems & Network Admin',
     description: 'Basic Administration',
-    level: 70,
     icon: Server
   }],
 
@@ -78,37 +71,31 @@ const skills = {
   {
     name: 'Communication',
     description: 'Team Collaboration',
-    level: 90,
     icon: MessageSquare
   },
   {
     name: 'Leadership',
     description: 'Coordination & Guidance',
-    level: 85,
     icon: Crown
   },
   {
     name: 'Responsibility',
     description: 'Reliability & Accountability',
-    level: 95,
     icon: CheckCircle
   },
   {
     name: 'Sprint Planning',
     description: 'Project Management',
-    level: 80,
     icon: Calendar
   },
   {
     name: 'Adaptability',
     description: 'Willingness to Learn',
-    level: 90,
     icon: Lightbulb
   },
   {
     name: 'Problem-Solving',
     description: 'Analytical Thinking',
-    level: 85,
     icon: Puzzle
   }]
 
@@ -176,37 +163,13 @@ export function Skills() {
                 delay: index * 0.05
               }}>
 
-                <div className="flex items-center justify-between mb-4">
-                  <div className="flex items-center gap-3">
-                    <div className="p-2 bg-cyan-500/10 rounded-lg text-cyan-500">
-                      <skill.icon className="w-6 h-6" />
-                    </div>
-                    <h3 className="font-bold text-slate-900 dark:text-white">
-                      {skill.name}
-                    </h3>
+                <div className="flex items-center gap-3 mb-4">
+                  <div className="p-2 bg-cyan-500/10 rounded-lg text-cyan-500">
+                    <skill.icon className="w-6 h-6" />
                   </div>
-                  <span className="text-sm font-bold text-cyan-500">
-                    {skill.level}%
-                  </span>
-                </div>
-
-                <div className="h-2 w-full bg-slate-100 dark:bg-slate-700 rounded-full overflow-hidden">
-                  <motion.div
-                  initial={{
-                    width: 0
-                  }}
-                  whileInView={{
-                    width: `${skill.level}%`
-                  }}
-                  viewport={{
-                    once: true
-                  }}
-                  transition={{
-                    duration: 1,
-                    ease: 'easeOut'
-                  }}
-                  className="h-full bg-cyan-500 rounded-full" />
-
+                  <h3 className="font-bold text-slate-900 dark:text-white">
+                    {skill.name}
+                  </h3>
                 </div>
               </motion.div>
             </Card>
