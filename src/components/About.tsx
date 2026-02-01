@@ -32,18 +32,7 @@ const timeline = [
   'Led technical setup, provided support during events, and coordinated to resolve issues efficiently.',
   icon: Briefcase,
   type: 'work'
-}
-{
-  id: 4,
-  role: 'PPCRV Vice Coordinator',
-  company: 'Parish Pastoral Council for Responsible Voting',
-  date: '2024 - 2025',
-  description:
-  'Dedicated volunteer for the Parish Pastoral Council for Responsible Voting (PPCRV), assisting in the delivery of clean, honest, and transparent elections through poll monitoring and technical support.',
-  icon: GraduationCap,
-  type: 'voluntter'
-},
-];
+}];
 
 // ===== END EXPERIENCE SECTION =====
 export function About() {
