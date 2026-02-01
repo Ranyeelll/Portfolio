@@ -93,7 +93,7 @@ export function Hero() {
             }}
             className="text-lg md:text-xl text-slate-600 dark:text-slate-400 max-w-2xl mb-10">
 
-            4th-year BSIT student with basic IT fundamentals and strong communication skills, seeking hands-on experience to grow professionally.
+            4th-year BSIT student with solid, experience-backed IT fundamentals and strong communication skills, seeking hands-on opportunities to grow professionally.
           </motion.p>
 
           <motion.div
