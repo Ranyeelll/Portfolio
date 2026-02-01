@@ -103,6 +103,21 @@ const projects = [
     demo: 'https://studybuddyai-pi.vercel.app/',
     github: ''
   }
+},
+{
+  id: 7,
+  title: 'ParKing',
+  category: 'Desktop',
+  role: 'Backend Developer, UI/UX Designer',
+  image: "/ParKing.png",
+
+  description:
+  'ParKing – A parking ticketing and management system designed to handle vehicle entries, parking records, and ticket management efficiently.',
+  tags: ['HTML', 'CSS', 'JavaScript', 'C#', 'Microsoft SQL Server'],
+  links: {
+    demo: '',
+    github: 'https://github.com/Ranyeelll/ParKing'
+  }
 }];
 
 // ===== END PROJECTS SECTION =====
