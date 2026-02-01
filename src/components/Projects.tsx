@@ -109,7 +109,7 @@ const projects = [
   title: 'ParKing',
   category: 'Desktop',
   role: 'Backend Developer, UI/UX Designer',
-  image: "/parKing.png",
+  image: "/parking.png",
 
   description:
   'ParKing – A parking ticketing and management system designed to handle vehicle entries, parking records, and ticket management efficiently.',
