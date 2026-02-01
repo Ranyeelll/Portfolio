@@ -2,8 +2,7 @@ import React, { useEffect, useState, Component } from 'react';
 import { motion } from 'framer-motion';
 import { ArrowDown, Github, Linkedin, Mail } from 'lucide-react';
 import { Button } from './ui/Button';
-import { TypeAnimation } from 'react-type-animation'; // Note: In a real environment, user might need to install this. I'll simulate it with custom CSS/JS if needed, but for now I'll use a simpler custom implementation to avoid dependency issues if the package isn't available.
-// Custom Typewriter Component to avoid external dependency for this demo
+import { TypeAnimation } from 'react-type-animation'; 
 const TypewriterEffect = ({ words }: {words: string[];}) => {
   const [index, setIndex] = useState(0);
   const [subIndex, setSubIndex] = useState(0);
@@ -94,8 +93,7 @@ export function Hero() {
             }}
             className="text-lg md:text-xl text-slate-600 dark:text-slate-400 max-w-2xl mb-10">
 
-            4th Year BSIT student with experienced IT fundamentals and communication skills,
-            seeking hands-on experience to grow professionally.
+            4th-year BSIT student with basic IT fundamentals and strong communication skills, seeking hands-on experience to grow professionally.
           </motion.p>
 
           <motion.div
