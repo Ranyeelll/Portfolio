@@ -147,7 +147,7 @@ export function Skills() {
           <Card
             key={skill.name}
             hover={true}
-            className="p-6 flex flex-col justify-center">
+            className="p-6 flex items-center justify-center">
 
               <motion.div
               initial={{
@@ -163,13 +163,16 @@ export function Skills() {
                 delay: index * 0.05
               }}>
 
-                <div className="flex items-center gap-3 mb-4">
-                  <div className="p-2 bg-cyan-500/10 rounded-lg text-cyan-500">
+                <div className="flex flex-col items-center justify-center text-center gap-2 min-h-[120px]">
+                  <div className="p-3 bg-cyan-500/10 rounded-lg text-cyan-500 flex items-center justify-center">
                     <skill.icon className="w-6 h-6" />
                   </div>
                   <h3 className="font-bold text-slate-900 dark:text-white">
                     {skill.name}
                   </h3>
+                  <p className="text-sm text-slate-600 dark:text-slate-400">
+                    {skill.description}
+                  </p>
                 </div>
               </motion.div>
             </Card>

@@ -86,7 +86,7 @@ export function About() {
 
             </div>
             <p className="text-slate-600 dark:text-slate-400 mb-6 leading-relaxed">
-              Motivated 4th Year BSIT student with a strong foundation in IT
+              Motivated 4th Year BSIT student with a experienced foundation in IT
               concepts and excellent communication skills. Reliable, adaptable,
               and collaborative, with hands-on experience in volunteer and
               team-based projects. Passionate about contributing to
