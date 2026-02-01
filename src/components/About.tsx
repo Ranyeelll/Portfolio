@@ -32,6 +32,26 @@ const timeline = [
   'Led technical setup, provided support during events, and coordinated to resolve issues efficiently.',
   icon: Briefcase,
   type: 'work'
+},
+{
+  id: 4,
+  role: 'PPCRV Vice Coordinator',
+  company: 'Parish Pastoral Council Responsible for Voting',
+  date: '2025 - 2026',
+  description:
+  'Dedicated volunteer for the Parish Pastoral Council for Responsible Voting (PPCRV), assisting in the delivery of clean, honest, and transparent elections through poll monitoring and technical support.',
+  icon: Briefcase,
+  type: 'volunteer'
+},
+{
+  id: 5,
+  role: 'PYM Social Action Junior Head',
+  company: 'Parish Youth Ministry',
+  date: '2024 - 2026',
+  description:
+  'Served as Social Action Junior Head for the Parish Youth Ministry, leading community outreach programs and coordinating social welfare initiatives to drive positive local impact.',
+  icon: Briefcase,
+  type: 'volunteer'
 }];
 
 // ===== END EXPERIENCE SECTION =====
