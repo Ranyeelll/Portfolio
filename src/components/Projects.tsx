@@ -107,7 +107,7 @@ const projects = [
 {
   id: 7,
   title: 'ParKing',
-  category: 'Desktop',
+  category: 'Web',
   role: 'Backend Developer, UI/UX Designer',
   image: "/parking.png",
 
